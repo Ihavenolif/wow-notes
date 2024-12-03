@@ -1,14 +1,5 @@
 # COURT MEGAPLAN
 
-@uly
-
-- **První weby** - drop dál od bosse
-- Rain drop směrem k prostředku
-- Jakmile Wex vezme orb, popnout web
-- Soaknout orby navzájem s Wexem
-- Připravit se na **charge**
-- **0:35 - Charge 1**
-
 @shadow
 
 - Dodge první frontal - _doprava_
