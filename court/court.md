@@ -1,14 +1,5 @@
 # COURT MEGAPLAN
 
-@shadow
-
-- Dodge první frontal - _doprava_
-- Drop rain, pod bosse
-- Bait frontal -> blink -> soaknout Banánův orb
-- Banán popne web, soaknout navzájem orby
-- Příprava na charge
-- **0:35 - Charge 1**
-
 @wex
 
 - Dodge první frontal - _doprava_
