@@ -2,7 +2,7 @@
 
 ## 0:15 - Weby 1 -> Rain 1
 
-- Drop dál od bosse
+- Web drop dál od bosse
 - Rain drop směrem k prostředku
 - Jakmile Wex vezme orb, popnout web
 - Soaknout orby navzájem s Wexem

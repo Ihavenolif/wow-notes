@@ -2,7 +2,7 @@
 
 ## 0:15 - Weby 1 -> Rain 1
 
-- Drop doprostřed
+- Web drop doprostřed
 - Rain drop směrem k prostředku
 - Jakmile Shadow vezme orb, popnout web
 - Soaknout orby navzájem se Shadowem

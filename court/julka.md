@@ -2,7 +2,7 @@
 
 ## 0:15 - Weby 1 -> Rain 1
 
-- Drop k prostředku
+- Web drop k prostředku
 - Jakmile spadne rain
   - počkat na Nevra
   - instantně popnout weby

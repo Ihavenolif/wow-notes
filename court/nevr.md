@@ -2,7 +2,7 @@
 
 ## 0:15 - Weby 1 -> Rain 1
 
-- Drop do prdele na stack
+- Web drop do prdele na stack
 - Jakmile spadne rain
   - naběhnout na Julku
   - instantně popnout weby
