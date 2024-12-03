@@ -1,14 +1,5 @@
 # COURT MEGAPLAN
 
-@banan
-
-- **První weby** - drop doprostřed
-- Rain drop směrem k prostředku
-- Jakmile Shadow vezme orb, popnout web
-- Soaknout orby navzájem se Shadowem
-- Připravit se na **charge**
-- **0:35 - Charge 1**
-
 @uly
 
 - **První weby** - drop dál od bosse
