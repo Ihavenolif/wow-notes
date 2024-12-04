@@ -21,6 +21,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r build/requirements.txt
 
+      - name: Create folder for build
+        run: |
+          mkdir webserver/templates
+
       - name: Build
         run: |
           python build/build.py
