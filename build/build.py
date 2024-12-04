@@ -12,12 +12,12 @@ def render_markdown(filename:str, playername:str):
     markdown_text = fetch_content(filename)
     
     prefix = f"""
-    <button type="button" class="collapsible"><strong>{playername.capitalize()}</strong></button>
+    <button type="button" class="collapsible"><strong>{playername.capitalize().replace("_", " ")}</strong></button>
             <div class="collapsible-content">
     """
     suffix = "</div> "
 
-    html = convert_markdown_to_html(markdown_text)
+    html = convert_markdown_to_html(markdown_text).replace("h2", "h3")
 
     return prefix + html + suffix
   
