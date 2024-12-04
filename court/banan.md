@@ -1,5 +1,3 @@
-@banan
-
 ## 0:15 - Weby 1 -> Rain 1
 
 - Web drop doprostřed

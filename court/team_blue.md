@@ -1,5 +1,3 @@
-@modra
-
 ## Frontal 1
 
 - Dodge _doleva_

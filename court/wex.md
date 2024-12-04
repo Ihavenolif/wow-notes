@@ -1,5 +1,3 @@
-@wex
-
 ## 0:05 - Frontal 1
 
 - Dodge **doprava**
