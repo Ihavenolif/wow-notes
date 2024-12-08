@@ -10,8 +10,7 @@
 ## 0:55 - Rain 2
 
 - Drop rain pod bosse
-- Rotace doprava
-- Sebrat mage koule
+- Rotace doprava, kolem bosse
 
 ## 1:25 - Rain 3 -> Weby 2
 
