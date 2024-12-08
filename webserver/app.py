@@ -29,10 +29,6 @@ def github_webhook():
             print("job not completed")
             return "no"
         
-        if not payload["repoitory"]["id"] == 898164860:
-            print("wrong repository")
-            return "no"
-        
         print("restarting")
         subprocess.Popen("/usr/bin/sudo /bin/systemctl restart iao-strats", shell=True, stdout=subprocess.PIPE)
         return "ok"
