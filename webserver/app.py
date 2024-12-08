@@ -30,7 +30,7 @@ def github_webhook():
             return "no"
         
         print("restarting")
-        subprocess.Popen("/usr/bin/sudo /bin/systemctl restart iao-strats", shell=True, stdout=subprocess.PIPE)
+        exit(0)
         return "ok"
 
 
