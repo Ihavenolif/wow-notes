@@ -1,5 +1,6 @@
 from flask import Flask, render_template, redirect, request
-import subprocess
+import os
+import signal
 
 
 app = Flask(__name__)
@@ -30,7 +31,7 @@ def github_webhook():
             return "no"
         
         print("restarting")
-        exit(0)
+        os.kill(os.getpid(), signal.SIGINT)
         return "ok"
 
 
