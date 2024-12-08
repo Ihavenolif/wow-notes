@@ -1,4 +1,5 @@
 from flask import Flask, render_template, redirect, request
+import subprocess
 
 
 app = Flask(__name__)
@@ -18,9 +19,29 @@ def court2():
 
 @app.route("/api/github-webhook", methods=["POST"])
 def github_webhook():
+    # yes, i know this can get ddosed easily
+    # no, i dont care
+    
     payload = request.get_json()
 
-    print(payload)
+    try:
+        if not payload["action"] == "completed":
+            print("job not completed")
+            return "no"
+        
+        if not payload["repoitory"]["id"] == 898164860:
+            print("wrong repository")
+            return "no"
+        
+        print("restarting")
+        subprocess.Popen("/usr/bin/sudo /bin/systemctl restart iao-strats", shell=True, stdout=subprocess.PIPE)
+        return "ok"
+
+
+    except:
+        print("wrong payload")
+        print(request.get_data())
+        return "fuckoff"
 
 if __name__ == '__main__':
     app.run(debug=True)
