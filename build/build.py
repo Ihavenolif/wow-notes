@@ -49,6 +49,7 @@ def build_template(template_name:str):
 
 def main():
     build_template("court")
+    build_template("court2")
     pass
 
 if __name__ == "__main__":
