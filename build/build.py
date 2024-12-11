@@ -2,6 +2,8 @@ import markdown
 import os
 import re
 
+from datetime import datetime
+
 def fetch_content(name:str):
     with open(name, "r", encoding="utf-8") as f:
         content = f.read()
@@ -43,6 +45,7 @@ def build_template(template_name:str):
         print(render_regex)
         content = content.replace(f"@Render({render_regex})", render_markdown(f"{template_name}/{render_regex}", render_regex.split(".")[0]))
 
+    content = content.replace("@Timestamp", str(datetime.now().timestamp().__round__()))
 
     fout = open(f"webserver/templates/{template_name}.html", "w", encoding="utf-8")
     fout.write(content)
