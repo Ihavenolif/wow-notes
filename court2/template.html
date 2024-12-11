@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/static/css/column-layout.css">
     <link rel="stylesheet" href="/static/css/collapsible.css">
     <link rel="stylesheet" href="/static/css/footer.css">
+    <link rel="stylesheet" href="/static/css/responsive-nav-bar.css">
     {% if theme == "light" %}  
     
     <link rel="stylesheet" href="/static/css/darkmode.css" id="dark-mode-ruleset" disabled>
@@ -21,6 +22,7 @@
 </head>
 
 <body>
+    @Include(build/shared/header.html)
     <img src="/static/images/court/banner.png" style="width: 100vw; height: 30vh;" alt="">
     <div class="row">
         <div class="column left">
@@ -35,8 +37,6 @@
             @Render(team_red.md)
 
         </div>
-
-        <button id="theme-toggle">theme</button>
 
         <div class="column right">
 
