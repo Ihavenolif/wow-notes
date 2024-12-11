@@ -2,7 +2,6 @@
 
 - Ranged parťák ti dropne web za prdelí
 - Stát ve webu když padá, spolu s parťákem
-- Krok vedle kvůli rainu
 - Drop rainu
 - Rotace, doprava kolem bosse
 - Příprava na charge - přeběh přes cestu
@@ -17,7 +16,6 @@
 ## 1:25 - Rain 3 -> Weby 2
 
 - Drop rain
-- Krok vedle kvůli webům
 - Ranged parťák ti dropne web za prdelí
 - Stát ve webu když padá, spolu s parťákem
 - Rotace, doprava kolem bosse
