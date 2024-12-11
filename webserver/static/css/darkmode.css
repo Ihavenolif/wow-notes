@@ -1,0 +1,22 @@
+@media (prefers-color-scheme: dark) {
+    .row {
+      background: #000;
+      color: #bdbdbd;
+    }
+    .collapsible {
+      background-color: #161616;
+      color: #c3c3c3;
+    }
+    .collapsible-active, .collapsible:hover {
+      background-color: #474747;
+    }
+    .collapsible-content {
+      background-color: #4f4f4f;
+    }
+    img {
+      filter: invert(1);
+    }
+    body {
+      background: #000;
+    }
+  }
