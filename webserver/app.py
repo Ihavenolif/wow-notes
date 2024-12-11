@@ -16,7 +16,8 @@ def court():
 
 @app.route("/court2")
 def court2():
-    return render_template("court2.html")
+    print(request.cookies.get("theme"))
+    return render_template("court2.html", theme=request.cookies.get("theme"))
 
 @app.route("/api/github-webhook", methods=["POST"])
 def github_webhook():

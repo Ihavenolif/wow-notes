@@ -1,4 +1,4 @@
-@media (prefers-color-scheme: dark) {
+
   .row {
     background: #111;
     color: #bdbdbd;
@@ -25,4 +25,3 @@
   body {
     background: #111;
   }
-}
