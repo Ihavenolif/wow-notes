@@ -14,7 +14,7 @@
   - Trhnu weby
   - Dosbírám zbytek orbů (pokud jsou)
 
-_Orby opravdu nejsou priorita času na ně je relativně dost. Hlavní je dodge
+_Orby opravdu nejsou priorita, času na ně je relativně dost. Hlavní je dodge
 kolečka a trhnutí webů._
 
 ## 3:30 - 3:50 - Dispely 1
