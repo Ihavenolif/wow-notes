@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/css/column-layout.css">
     <link rel="stylesheet" href="/static/css/collapsible.css">
+    <link rel="stylesheet" href="/static/css/footer.css">
     <title>Silken Court</title>
 </head>
 
@@ -32,7 +33,15 @@
         </div>
     </div>
 
+    <footer class="footer"> <p id="dateTimeStringContainer"></p> </footer>
+
     <script src="/static/js/collapsible.js"></script>
+    <script>
+        const timestamp = Number("@Timestamp000");
+        const date = new Date(timestamp);
+        // WHO THE FUCK DESIGNED THIS SHIT
+        document.getElementById("dateTimeStringContainer").innerHTML = `Last update: ${date.getDate()}. ${date.getMonth() + 1}. ${date.getFullYear()},  ${date.getHours()}\:${date.getMinutes()}`;
+    </script>
 </body>
 
 </html>
