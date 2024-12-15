@@ -43,3 +43,15 @@
  li {
      padding-bottom: 8px;
  }
+
+ ul {
+    padding-top: 8px;
+}
+
+pre{
+    background-color: #111;
+}
+
+code{
+    color: #ccc;
+}
