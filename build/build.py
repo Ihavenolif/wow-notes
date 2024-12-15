@@ -26,6 +26,17 @@ def render_markdown(filename:str, playername:str):
     return prefix + html + suffix
   
 
+def mrt_color(text:str) -> str:
+    mrt_regex_list = re.findall("\|c([a-fA-F0-9]{8})(.*?)\|r", text)
+
+    for mrt_regex in mrt_regex_list:
+        mrt_color = mrt_regex[0][2:]
+        mrt_name = mrt_regex[1]
+
+        text = text.replace(f"|cff{mrt_color}{mrt_name}|r", f"<span style=\"color: #{mrt_color}\">{mrt_name}</span>")
+
+    return text
+
 def convert_markdown_to_html(markdown_text):
     """
     Convert markdown text to HTML.
@@ -36,7 +47,7 @@ def convert_markdown_to_html(markdown_text):
     Returns:
         str: The converted HTML.
     """
-    return markdown.markdown(markdown_text, extensions=[ CodeHiliteExtension(linenums=False), FencedCodeExtension() ])
+    return markdown.markdown(markdown_text, extensions=[ FencedCodeExtension() ])
 
 def render_template(template_name:str, path_raw:bool = False) -> str:
     if not path_raw:
@@ -58,6 +69,8 @@ def render_template(template_name:str, path_raw:bool = False) -> str:
         content = content.replace(f"@Render({render_regex})", render_markdown(f"{template_name}/{render_regex}", render_regex.split(".")[0]))
 
     content = content.replace("@Timestamp", str(datetime.now().timestamp().__round__()))
+
+    content = mrt_color(content)
 
     return content
 
