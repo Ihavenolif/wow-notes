@@ -3,16 +3,16 @@
 - Připravit se s parťákem do formace
   - Není to až tak klíčový, ale pomůže vám to s trháním webů
 - Pokud dostanu grip jako **první**:
-  - Běžím **do stran**
-  - Trhnu weby
-  - Uteču z velkýho kola
-  - Jdu sebrat modrý koule
+    - Běžím **do stran**
+    - Trhnu weby
+    - Uteču z velkýho kola
+    - Jdu sebrat modrý koule
 - Pokud dostanu grip jako **druhý**:
-  - Běžím **rovně**
-  - Sbírám modrý orby
-  - Uteču z velkýho kola
-  - Trhnu weby
-  - Dosbírám zbytek orbů (pokud jsou)
+    - Běžím **rovně**
+    - Sbírám modrý orby
+    - Uteču z velkýho kola
+    - Trhnu weby
+    - Dosbírám zbytek orbů (pokud jsou)
 
 _Orby opravdu nejsou priorita, času na ně je relativně dost. Hlavní je dodge
 kolečka a trhnutí webů._
@@ -38,16 +38,16 @@ kolečka a trhnutí webů._
 
 - Tady se pravděpodobně nestihne formace
 - Pokud dostanu grip jako **první**:
-  - Běžím **do stran**
-  - Trhnu weby
-  - Uteču z velkýho kola
-  - Jdu sebrat modrý koule
+    - Běžím **do stran**
+    - Trhnu weby
+    - Uteču z velkýho kola
+    - Jdu sebrat modrý koule
 - Pokud dostanu grip jako **druhý**:
-  - Běžím **rovně**
-  - Sbírám modrý orby
-  - Uteču z velkýho kola
-  - Trhnu weby
-  - Dosbírám zbytek orbů (pokud jsou)
+    - Běžím **rovně**
+    - Sbírám modrý orby
+    - Uteču z velkýho kola
+    - Trhnu weby
+    - Dosbírám zbytek orbů (pokud jsou)
 
 ## 4:30 - 4:50 - Dispely 2
 
