@@ -7,10 +7,22 @@
     <link rel="stylesheet" href="/static/css/column-layout.css">
     <link rel="stylesheet" href="/static/css/collapsible.css">
     <link rel="stylesheet" href="/static/css/footer.css">
+    <link rel="stylesheet" href="/static/css/responsive-nav-bar.css">
+    {% if theme == "light" %}  
+    
+    <link rel="stylesheet" href="/static/css/darkmode.css" id="dark-mode-ruleset" disabled>
+
+    {% else %}
+
+    <link rel="stylesheet" href="/static/css/darkmode.css" id="dark-mode-ruleset">
+    
+    {% endif %}
+    
     <title>Silken Court</title>
 </head>
 
 <body>
+    @Include(build/shared/header.html)
     <img src="/static/images/court/banner.png" style="width: 100vw; height: 30vh;" alt="">
     <div class="row">
         <div class="column left">
@@ -28,6 +40,7 @@
             @Render(I1/všichni.md)
 
         </div>
+
         <div class="column right">
 
         </div>
@@ -36,6 +49,7 @@
     <footer class="footer"> <p id="dateTimeStringContainer"></p> </footer>
 
     <script src="/static/js/collapsible.js"></script>
+    <script src="/static/js/darkmode.js"></script>
     <script>
         const timestamp = Number("@Timestamp000");
         const date = new Date(timestamp);

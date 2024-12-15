@@ -1,3 +1,4 @@
 webserver-venv
 build-venv
 webserver/templates/*
+__pycache__
