@@ -1,6 +1,8 @@
 import markdown
 import os
 import re
+from markdown.extensions.codehilite import CodeHiliteExtension
+from markdown.extensions.fenced_code import FencedCodeExtension
 
 from datetime import datetime
 
@@ -34,7 +36,7 @@ def convert_markdown_to_html(markdown_text):
     Returns:
         str: The converted HTML.
     """
-    return markdown.markdown(markdown_text)
+    return markdown.markdown(markdown_text, extensions=[ CodeHiliteExtension(linenums=False), FencedCodeExtension() ])
 
 def render_template(template_name:str, path_raw:bool = False) -> str:
     if not path_raw:
