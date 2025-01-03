@@ -14,6 +14,6 @@
 1. |cffaad372Olgrin|r |cffaad372Nevrmøre|r 
 2. |cffff7c0aDralf|r |cfff48cbaZoromstitel|r 
 3. |cff0070ddLittlechilla|r |cfff48cbaLuriol|r 
-4. |cff8788eeUly|r |cffff7c0aLanaes|r 
-5. |cffaad372Julka|r |cffc41e3aThekropicka|r
+4. |cff8788eeDépéhá|r |cffff7c0aLanaes|r 
+5. |cff0070ddToluus|r |cffc41e3aThekropicka|r
 ```
