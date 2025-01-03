@@ -1,0 +1,1 @@
+Točíme se kolem bosse, hlavně stojíme na sobě jako grupa, ať se nesrážíme. Damage se nestopuje.
